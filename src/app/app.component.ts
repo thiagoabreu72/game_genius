@@ -150,7 +150,7 @@ export class AppComponent {
         }, 1000);
       }
     } else {
-      alert('Você perdeu! Sua pontuação foi ' + this.pontuacao + '!');
+      alert('Sua pontuação foi ' + this.pontuacao + '!');
       this.zeraPontuacao();
     }
   }
