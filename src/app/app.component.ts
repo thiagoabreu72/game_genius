@@ -151,6 +151,7 @@ export class AppComponent {
       }
     } else {
       alert('Você perdeu! Sua pontuação foi ' + this.pontuacao + '!');
+      this.zeraPontuacao();
     }
   }
 
