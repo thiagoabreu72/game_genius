@@ -157,6 +157,7 @@ export class AppComponent {
   iniciarJogo() {
     this.zeraSequenciaBot();
     this.zeraSequenciaUsuario();
+    this.zeraPontuacao();
     this.montaSequencia();
     this.executaSequencia();
   }
